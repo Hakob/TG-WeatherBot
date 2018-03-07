@@ -1,2 +1,2 @@
-# Telegram Greetings Bot
-Greet him and hi will answer respectively
+# Telegram Weather Bot
+@init_upbot
