@@ -20,6 +20,8 @@ $ cd TG-WeatherBot
 $ virtualenv --python=python3 venv 
 $ source bin/activate
 (venv)$ pip3 install -r requirements.txt 
+(venv)$ python3 main.py                   # Before this command ensure that 
+                                          # you must provide weather_api_key and tg_token in main.py
 ```
 
 ## Deployment
