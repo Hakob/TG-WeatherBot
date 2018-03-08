@@ -28,8 +28,10 @@ $ source bin/activate
 For deployment this bot requires two token-variables, which we'll apply in the [_main.py_](main.py) file.
 Add additional notes about how to bring these token respectively for:
 *_weather_api_key_* and *_tg_token_* variables. (See 10, 11 lines in main.py)
-[Telegram Bot Token Guide](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
-[Open Weather API key guide](https://openweathermap.org/appid)
+
+  - [Telegram Bot Token Guide](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
+  - [Open Weather API key guide](https://openweathermap.org/appid)
+
 ## Built With
 
 * [Requests](http://docs.python-requests.org/en/master/) - HTTP for Humans
