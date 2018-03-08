@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-Dillinger requires [Python](https://www.python.org/) v3+ to run.
+TG-Weather Bot requires [Python](https://www.python.org/) v3+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
