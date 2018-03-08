@@ -7,8 +7,8 @@ from time import sleep
 from BotHandler import BotHandler
 from WeatherHandler import WeatherHandler
 
-weather_api_key = 'd9925fdb475f8195a8e7ad7fff0a766b'
-tg_token = '509190040:AAGuckU0iDAnq-l6lXpdDfRy1kcqjxBeyfA'
+weather_api_key = '<open weather map api_key>'
+tg_token = '<telegram bot token>'
 
 weather_handler = WeatherHandler(api_key=weather_api_key)
 greet_bot = BotHandler(token=tg_token)
