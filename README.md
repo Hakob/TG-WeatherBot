@@ -1,4 +1,5 @@
 # Telegram Weather Bot
+[![Telegram](https://upload.wikimedia.org/wikipedia/commons/d/dd/Telegram_alternative_logo.svg)](https://telegram.org/)
 [Weather Bot](https://telegram.me/init_upbot) - The Weather In Your City
 
 ## Getting Started
