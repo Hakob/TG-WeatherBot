@@ -29,15 +29,15 @@ hour = now.hour
 
 def main():
     last_update = greet_bot.get_updates(offset=-1)
-    last_id = last_update['result'][-1]['update_id']
+    last_id = last_update['result'][-1]['update_id'] if last_update['result'] != [] else 0
 
     while True:
         last = greet_bot.get_updates(offset=-1)
-        last = last['result'][-1]
+        last = last['result'][-1] if last['result'] != [] else 0
         last_update_id = last['update_id']
 
         if last_update_id == last_id:
-            sleep(3)
+            sleep(5)
             continue
         else:
             last_id = last_update_id
